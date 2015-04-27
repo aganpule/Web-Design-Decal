@@ -1,0 +1,475 @@
+div {
+	box-sizing: border-box;
+}
+span {
+	box-sizing: border-box;
+}
+img {
+	object-fit: cover;
+}
+
+/* Fixed navbar */
+#navbar {
+	position: fixed;
+	top: 0px;
+	background-color: #0E0F0F;
+	width: 100%;
+	height: 70px;
+	z-index: 5;
+}
+
+#title-text {
+	margin-left: 100px;
+	font-family: 'Cinzel', serif;
+	color: white;
+	font-size: 45px;
+}
+#desc {
+	margin-left: 100px;
+	font-family: 'Cinzel', serif;
+	color: white;
+	font-size: 12px;
+	margin-top: -10px;
+}
+#links {
+	position: fixed;
+	left: calc(100% - 450px);
+	top: 25px;
+}
+#abt {
+	font-family: 'Lato', sans-serif;
+	color: white;
+}
+#aca {
+	font-family: 'Lato', sans-serif;
+	color: white;
+}
+#std {
+	font-family: 'Lato', sans-serif;
+	color:white;
+}
+#nav-crest img {
+	position: fixed;
+	width: 80px;
+	margin-left: 10px;
+	z-index: 10;
+	top: 10px;
+}
+#search {
+	position: fixed;
+	border: 1px solid #525252;
+	z-index: 10;
+	margin-left: calc(100% - 200px);
+	top: 25px;
+}
+
+
+
+
+ /*Background class */
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+.background-container { 
+	position: relative;
+	overflow: auto;
+	border: 0px;
+}
+.background-container li {
+	list-style: none;
+	position: relative;
+}
+.background-container ul li {
+	float: left;
+}
+.back-img{
+	background-size: 100% 100%;
+	width: 100%;
+    height: 100%;
+}
+.img-scaled {
+	width: 100%;
+	height: 100%;
+	background-size: 100% 100%;
+}
+#next {
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	top: 250px;
+	right: 10px;
+	cursor: pointer;
+	opacity: .8;
+}
+#prev {
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	top: 250px;
+	cursor: pointer;
+	opacity: .8;
+}
+.info-box {
+	width: 450px;
+	height: 250px;
+	bottom: 20px;
+	right: 30px;
+	position: absolute;
+	z-index: 1;
+	padding: 10px;
+}
+.owl {
+	position: fixed;
+	width: 20px;
+	height: 130px;
+	background-color: #C5A833;
+	z-index: 5;
+	opacity: .9;
+	top: calc(5% + 70px);
+	cursor: pointer;
+}
+#owl-text {
+	font-family: 'Lato', sans-serif;
+	font-size: 12px;
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+	width: 130px;
+	z-index: 10;
+	color: 0E0F0F;
+	position: absolute;
+	top: calc(5% + 35px);
+	left: -55px;
+}
+.owl-big {
+	font-family: 'Lato', sans-serif;
+	position: fixed;
+	width: 400px;
+	height: 200px;
+	background-color: #C5A833;
+	z-index: 5;
+	opacity: .9;
+	top: calc(5% + 70px);
+	display: none;
+}
+#text {
+	position: absolute;
+	color: white;
+	color: #0E0F0F;
+	left: 20px;
+	top: 10px;
+	font-size: 20px;
+}
+#owl-inps {
+	position: absolute;
+	top: 40px;
+	left: 15px;
+}
+.owl-inp {
+	margin: 5px;
+}
+#submit {
+	width: 90px;
+	height: 30px;
+	background-color: #222B34;
+	z-index: 10;
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	color: white;
+	text-align: center;
+	cursor: pointer;
+}
+
+/*background 1 */
+#box1 {
+	background-color: #800000;
+}
+#box2 {
+	background-color: #BF9000;
+}
+#box3 {
+	background-color: #003300;
+}
+#box4 {
+	background-color: #203864;
+}
+.info-title {
+	font-family: 'Lato', sans-serif;
+	font-size: 40px;
+	color: white;
+	font-weight: 700;
+	margin: 5px;
+}
+.info-desc {
+	font-family: 'Lato', sans-serif;
+	font-style: 20px;
+	color: white;
+	margin: 20px 5px;
+}
+.info-button {
+	position: absolute;
+    width: 90px;
+    height: 30px;
+    background-color: #0E0F0F;
+    bottom: 20px;
+    right: 20px;
+    padding-top: 5px;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+	font-family: 'Lato', sans-serif;
+}
+
+/*House Descriptions*/
+#Houses-container {
+	top: 10px;
+	position: relative;
+	background-color: white;
+	width: 100%;
+	padding: 10px;
+	margin: 0px;
+}
+#houses-title {
+	font-family: 'Lato', sans-serif;
+	font-size: 45px;
+	margin-left: 30px;
+}
+#houses-desc {
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	margin-top: 10px;	
+	width: calc(55%);
+	margin-left: 30px;
+	line-height: 1.75;
+}
+#Houses img {
+	float: right;
+	width: 350px;
+	z-index: 5;
+	margin-right: 50px;
+	margin-top: 30px;
+}
+#four-houses {
+	margin-top: 20px;
+	width: 100%;
+}
+.house {
+	width: 50%;
+	height: 50%;
+	position: relative;
+	float: left;
+	border: 0px;
+	cursor: pointer;
+}
+#gryff {
+	background-color: #800000;
+	opacity: .9;
+}
+
+#gryff:hover {
+	opacity: 1;
+}
+#slyth {
+	background-color: #003300;
+	opacity: .9;
+}
+#slyth:hover {
+	opacity: 1;
+}
+#huff {
+	background-color: #BF9000;
+	opacity: .9;
+}
+#huff:hover {
+	opacity: 1;
+}
+#rav {
+	background-color: #203864;
+	opacity: .9;
+}
+#rav:hover {
+	opacity: 1;
+}
+.house-name {
+	position: absolute;
+	color: white;
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+	bottom: 15px;
+	left: 80px;
+}
+.house-label {
+	color: white;
+	font-size: 45px;
+	font-family: 'Lato', sans-serif;
+	position: absolute;
+	left: 350px;
+	font-weight: 700;
+	margin-top: 10px;
+}
+.house-logo img {
+	width: 180px;
+	height: auto;
+	z-index: 2;
+	position: absolute;
+	top: 10px;
+	left: 30px;
+}
+.house-desc {
+	font-family: 'Lato', sans-serif;
+	color: white;
+	font-size: 18px;
+	width: 25%;
+	position: absolute;
+	left: 350px;
+	top: 70px;
+}
+
+/*Student Life Tab*/
+.image-container, #top{
+	width: 1000px;
+	height: 200px;
+	top: 140px;
+	position: absolute;
+	left: calc(50% - 420px);
+}
+.image-container, #bottom{
+	width: 1000px;
+	height: 200px;
+	top: 360px;
+	position: absolute;
+	left: calc(50% - 420px);
+}
+.stud-image {
+	display: inline-block;
+	margin: 10px;
+	width: 300px;
+	height: 200px;
+	position: relative;
+	left: -50px;
+}
+.stud-image img {
+	width: 300px;
+	height: 200px;
+}
+.img-text {
+    background: rgba(0, 0, 0, 0.5);
+    font-family: 'Lato', sans-serif;
+    display: table;
+    opacity: 0;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    height: 200px;
+    top: 0px;
+    -webkit-transition: opacity 500ms;
+  	-moz-transition: opacity 500ms;
+  	-o-transition: opacity 500ms;
+  	transition: opacity 500ms;
+}
+.stud-image:hover .img-text{
+	opacity: 1;
+}
+.img-title {
+	font-size: 20px;
+	margin-bottom: 20px;
+	font-weight: 500;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.img-desc {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#stud-title {
+	font-family: 'Lato', sans-serif;
+	font-size: 45px;
+	margin-top: 90px;
+	margin-left: 100px;
+	calc(50% - 460px);
+}
+
+/* Academics Tab */
+#academic-container {
+	position: relative;
+}
+#aca-title {
+	font-size: 45px;
+	color: #0E0F0F;
+	margin-top: 90px;
+	font-family: 'Lato', sans-serif;
+	margin-left: 100px;
+}
+#aca-desc {
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	margin-top: 10px;	
+	width: calc(50%);
+	margin-left: 100px;
+	line-height: 1.75;
+}
+#academic-container img {
+	position: absolute;
+	right: 30px;
+	top: 60px;
+}
+#quote-box {
+	width: calc(50%);
+	height: 190px;
+	margin-left: 100px;
+	background-color: #BF9000;
+	color: white;
+	margin-top: 10px;
+	font-family: 'Cinzel', serif;
+	padding: 15px;
+	font-style: italic;
+	font-size: 18px;
+	position: relative;
+}
+#author {
+	font-family: 'Cinzel', serif;
+	font-size: 30px;
+	font-weight: 600px;
+	color: white;
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+}
+#course-grid {
+	width: 1000px;
+	margin-left: calc(50% - 400px);
+	margin-bottom: 30px;
+}
+.course {
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	position: relative;
+	font-family: 'Lato', sans-serif;
+	margin: 50px;
+	cursor: pointer;
+}
+.course img {
+	width: 200px;
+	height: 190px;
+}
+.course-title {
+	position: absolute;
+	top: 210px;
+	left: 0px;
+}
+
+
+/* ipad*/
+@media (max-width: 1024px) and (min-width: 768px) {
+
+}
+
+
+
